@@ -1,0 +1,288 @@
+body {
+    background-image: url('assets/back/Background-Gradient-up.png'), url('assets/back/Background-Gradient-dw.png');
+    background-color: #0D0D0D;
+    background-position: top, bottom;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 100% auto, 100% auto; /* Ajusta o tamanho da imagem de fundo */
+    min-height: 100vh; /* Garante que o fundo cubra a tela inteira */
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-navbar {
+    background: rgba(255, 255, 255, 0.1); /* Cor de fundo com opacidade */
+    backdrop-filter: blur(10px); /* Aplica o desfoque no fundo */
+    
+    margin-top: 32px;
+    margin-left: 244px;
+    margin-right: 244px;
+    border-radius: 15px;
+}
+.navbar-nav .nav-link {
+    color: #ffffff; /* Cor dos links */
+    font-weight: bold;
+    margin-right: 20px; /* Espaçamento entre os links */
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #4c4f52;
+}
+
+.navbar-nav .dropdown-item {
+    color: #ffffff;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #2c3e50;
+}
+
+.navbar-dark .navbar-toggler-icon {
+    background-color: #ffffff;
+}
+
+.d-flex .nav-link {
+    color: #ffffff;
+    font-size: 1.5em;
+}
+
+.d-flex .nav-link:not(:last-child) {
+    margin-right: 10px;
+}
+
+.fw-bold{
+    color: #ffffff;
+}
+
+.tituloB{
+    color: #808080;
+}
+.tituloL{
+    font-size: 60px;
+    color: #ffffff;
+    margin-left: 10%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+   
+}
+
+.pSobreMim{
+    margin-top: 2%;
+    margin-left: 5%;
+    display: flex;
+    text-align: left;
+    padding-right: 60%;
+    flex-direction: column;
+    font-size: 1.2rem;
+
+}
+
+p{
+    color: #808080;
+    
+}
+
+h2{
+    color: #ffffff;
+}
+
+h5{
+    color: #ffffff;
+}
+
+.imgskills{
+    display: flex;
+    width: 80%;
+    height: 500px;
+    
+}
+
+.border-top {
+    border-top: var(--bs-border-width) var(--bs-border-style) rgba(255, 255, 255, 0.3) !important;
+}
+.nav{
+
+    padding-right: 80%;
+    margin-bottom: -5%
+
+}
+
+footer{
+    margin-bottom: 0px;
+}
+
+.btn-primary{
+    box-shadow: 0 12px 12px 0 rgba(0, 0, 0, .1), 
+    inset 0 2px 4px 0 hsla(0, 0%, 100%, .1), 
+    inset 0 1px 2px 0 hsla(0, 0%, 100%, .2);
+    background-color: #242424;
+    background-image: linear-gradient(180deg, #1a1a1a, #131313);
+    border: #0D0D0D;
+    transition: transform 0.3s, color 0.3s; /* Transição suave para transformações e cores */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    gap: 0.5rem;
+
+}
+
+.btn-primary:hover {
+    transform: translateY(-1px); /* Move o botão para cima no hover */
+    color: rgb(255, 255, 255); /* Muda a cor do texto no hover */
+}
+
+.btn-primary:active {
+    transform: translateY(2px); /* Move o botão para baixo quando pressionado */
+}
+
+.dark-mode .btn-primary {
+    color: lightgray; /* Cor de texto no modo escuro */
+}
+
+.dark-mode .btn-primary:hover {
+    color: white; /* Cor de texto ao passar o mouse no modo escuro */
+}
+
+
+.AmostrasProjetos {
+    display: flex;
+    gap: 50px;
+    background-color: #1c1c1c;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    max-width: 1200px;
+    width: 90%;
+    align-items: center;
+    margin-top: 5%;
+    margin-left: 5%;
+    
+  }
+  
+  /* Conteúdo do Projeto */
+  .ConteudoProjetos {
+    max-width: 500px;
+  }
+  
+  .ConteudoProjetos h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+  }
+  
+  .ConteudoProjetos p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .download-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #34d399;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .download-btn:hover {
+    background-color: #10b981;
+  }
+  
+  /* Mockup da Imagem */
+  .ImagemMockup img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+
+  /* Contato */
+  /* Container do Formulário */
+  .contact-container {
+    background-color: #1c1c1c;
+    padding: 20px 40px;
+    border-radius: 16px;
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.6);
+    width: 90%;
+    max-width: 700px; /* Garante que seja responsivo */
+    margin: 0 auto;
+    margin-top: 5%;
+   
+  }
+  
+  /* Cabeçalho */
+  .contact-header h2 {
+    text-align: center;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+  }
+  
+  /* Formulário */
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .contact-form label {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .contact-form input,
+  .contact-form textarea {
+    background-color: #2a2a2a;
+    border: 1px solid #3a3a3a;
+    border-radius: 10px;
+    padding: 15px;
+    color: white;
+    outline: none;
+    transition: border-color 0.3s;
+    font-size: 16px;
+  }
+  
+  .contact-form input::placeholder,
+  .contact-form textarea::placeholder {
+    color: #aaa;
+  }
+  
+  .contact-form input:focus,
+  .contact-form textarea:focus {
+    border-color: #34d399;
+  }
+  
+  /* Rodapé do Formulário */
+  .form-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .char-count {
+    color: #aaa;
+    font-size: 14px;
+  }
+  
+  button {
+    background-color: #34d399;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 25px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #10b981;
+  }
